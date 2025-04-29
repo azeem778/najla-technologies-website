@@ -1,0 +1,13 @@
+.aboutcompany-badge{
+    width: 70px;
+    height: 70px;
+    background-color: var(--dark-color) !important;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    flex-shrink: 0;
+}

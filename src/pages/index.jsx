@@ -1,0 +1,5 @@
+export * from './Home'
+export * from './Aboutus'
+export * from './Contactus'
+export * from './PortfolioPage'
+export * from './ServicePage'

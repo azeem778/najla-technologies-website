@@ -1,0 +1,42 @@
+.teamcard {
+    background-color: var(--dark-color);
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s all linear;
+}
+.team-img-sec{
+    position: relative;
+    overflow: hidden;
+    border-radius: 40px;
+}
+.social-link {
+    background-color: var(--brown-color) !important;
+    border-radius: 40px;
+    padding: 10px 5px;
+    width: 80%;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    transition: 0.5s all linear;
+}
+.teamcard:hover .social-link{
+    top: 70%;
+}
+.team-img{
+    transition: 0.5s all linear;
+}
+.teamcard:hover .team-img{
+   transform: scale(1.2);
+   transition: 0.5s all linear;
+}
+.social-link-badge{
+    background-color: var(--dark-color);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}

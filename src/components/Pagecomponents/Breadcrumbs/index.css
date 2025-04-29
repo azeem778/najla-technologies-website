@@ -1,0 +1,33 @@
+.ant-breadcrumb-separator{
+    color: white !important;
+}
+.breadcrumb{
+    /* background-image: url(../../../../assets/images/get-in-touch.jpg); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.breadcrumb::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #060922;
+    opacity: 0.7;
+    pointer-events: none;
+    z-index: 1;  
+}
+
+.breadcrumb .container {
+    position: relative; 
+    z-index: 2; 
+}

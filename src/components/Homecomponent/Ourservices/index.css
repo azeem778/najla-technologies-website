@@ -1,0 +1,18 @@
+.servicecard {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .servicecard:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+  }
+
+  [dir=rtl] .slick-prev{
+    right: auto !important;
+    left: -25px !important;
+  }
+
+  [dir=rtl] .slick-next{
+    right: -25px !important;
+    left: auto !important;
+  }
