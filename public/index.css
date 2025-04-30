@@ -676,11 +676,11 @@ color: var(--dark-color) !important;
     height: auto;
     bottom: 0;
     left: 0;
-    opacity: 0;
-    visibility: hidden;
+    opacity: 1;
+    visibility: visible;
     transition: .4s all ease;
     padding: 0 40px 40px 40px;
-    transform: translateY(100%);
+    transform: translateY(0%);
 }
 
 .content-portfolio a{

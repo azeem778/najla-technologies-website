@@ -7,14 +7,14 @@ import { Trans, useTranslation } from 'react-i18next'
 const { Title, Text } = Typography
 const PortfiolioCards = () => {
 
-  const {t} = useTranslation()
+  const { t } = useTranslation()
   return (
     <div className='padding-main'>
-      <Row gutter={[24,64]}>
+      <Row gutter={[24, 64]}>
         <Col span={24}>
           <Flex vertical align='center' className='text-center' gap={10}>
             <Title level={1} className='text-center m-0'>
-              <Trans i18nKey={'Our Projects'} components={{span: <span className='text-brown'></span>}} />
+              <Trans i18nKey={'Our Projects'} components={{ span: <span className='text-brown'></span> }} />
             </Title>
             <Text className='text-center fs-15'>
               {t('Repla – Innovative and Adaptable Digital Solutions for Modern Business')}
@@ -22,10 +22,10 @@ const PortfiolioCards = () => {
           </Flex>
         </Col>
         {
-          PortfolioData?.map((data, index)=>
-            <Col xs={{span: 24}} sm={{span: 24}} md={{span: 12}} lg={{span: 8}} key={index}>
+          PortfolioData?.map((data, index) =>
+            <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 12 }} lg={{ span: 8 }} key={index}>
               <Card className='bg-transparent border-0 card-p h-100'>
-                <img src={"/assets/images/portfolio/"+data?.smimg} width={'100%'} className='round-corner-one h-100' alt="" />
+                <img src={"/assets/images/portfolio/" + data?.smimg} width={'100%'} className='round-corner-one h-100' alt="" />
                 <div className='content-portfolio'>
                   <NavLink to={`/portfolio/details/${data?.id}`}>
                     <Flex vertical gap={5}>
@@ -43,4 +43,4 @@ const PortfiolioCards = () => {
   )
 }
 
-export {PortfiolioCards}
+export { PortfiolioCards }
