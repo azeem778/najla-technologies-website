@@ -32,8 +32,8 @@ const Ourteam = () => {
             {
                 id:'4',
                 img:'michael.png',
-                name:'Md Ahiduzzaman',
-                designation:'Web Developer'
+                name:'Abdul Ahad Fatik',
+                designation:'Chief IT Engineer'
             },
         ]
     return (

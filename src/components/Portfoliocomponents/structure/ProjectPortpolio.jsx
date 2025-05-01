@@ -47,18 +47,19 @@ const ProjectPortpolio = () => {
     }
 
     return (
-        <div className='padding-main'>
+        <div className='mb-3'>
             <Row  gutter={[24,64]}>
                 <Col span={24}>
-                          <Flex vertical align='center' className='text-center' gap={10}>
-                            <Title level={1} className='text-center m-0'>
-                              <Trans i18nKey={'Our Previous Prjoects'} components={{span: <span className='text-brown'></span>}} />
-                            </Title>
-                            <Text className='text-center fs-15'>
-                              {t('Repla – Innovative and Adaptable Digital Solutions for Modern Business')}
-                            </Text>
-                          </Flex>
-                        </Col>
+                    <Flex vertical align='center' className='text-center' gap={10}>
+                        <Title level={1} className='text-center m-0'>
+                            {/* <Trans i18nKey={''} components={{span: <span className='text-brown'></span>}} /> */}
+                            Our Previous <span className='text-brown'>Projects</span>
+                        </Title>
+                        <Text className='text-center fs-15'>
+                            Repla – Innovative and Adaptable Digital Solutions for Modern Business
+                        </Text>
+                    </Flex>
+                </Col>
                 <Col span={24}>
                     <Slider {...Websites}>
                         {
