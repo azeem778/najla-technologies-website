@@ -2,7 +2,7 @@ import React from 'react'
 import Slider from 'react-slick'
 import { Row, Col, Flex, Space, Typography } from 'antd'
 import { ProjectPortpolioData } from '../../../data'
-import { Trans, useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 const { Title, Text } = Typography
 
 const ProjectPortpolio = () => {
@@ -52,11 +52,10 @@ const ProjectPortpolio = () => {
                 <Col span={24}>
                     <Flex vertical align='center' className='text-center' gap={10}>
                         <Title level={1} className='text-center m-0'>
-                            {/* <Trans i18nKey={''} components={{span: <span className='text-brown'></span>}} /> */}
-                            Our Previous <span className='text-brown'>Projects</span>
+                            {t('Our Proven Projects in Web, App, and IT Solutions Across Saudi Arabia')}
                         </Title>
                         <Text className='text-center fs-15'>
-                            Repla – Innovative and Adaptable Digital Solutions for Modern Business
+                            {t('Explore our portfolio of successful digital projects, including mobile app development, web platforms, and customized IT solutions delivered to businesses in Riyadh and throughout the Kingdom.')}
                         </Text>
                     </Flex>
                 </Col>
@@ -66,7 +65,7 @@ const ProjectPortpolio = () => {
                             ProjectPortpolioData?.map((items, index) =>
                                 <div className='px-3' key={index}>
                                     <Space direction='vertical' size={20} className='h-100 w-100'>
-                                        <img src={`assets/images/portfolio/${items?.img}`} width={'100%'} className='round-corner-one h-100' />
+                                        <img src={`assets/images/${items?.img}`} width={'100%'} className='round-corner-one h-100' />
                                         <Flex vertical gap={5}>
                                             <Title level={4} className='head-font m-0 px-3'>
                                                 {items?.title}

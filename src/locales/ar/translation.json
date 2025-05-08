@@ -1,9 +1,9 @@
 {
-    "Home":"بيت",
+    "Home":"الرئيسية",
     "About Us":"معلومات عنا",
-    "Services":"خدمات",
+    "Services":"خدماتنا",
     "SERVICES":"خدمات",
-    "Portfolio":"مَلَفّ",
+    "Portfolio":"أعمالنا",
     "Contact Us":"اتصل بنا",
     
     "Najla Technologies Pvt. Ltd":"نائلة تكنولوجيز الجندي. المحدودة.",
@@ -39,7 +39,7 @@
 
     "Our Services":"<span>خدمات</span>نا",
     "service-desc":"في <span>نجلاء للتكنولوجيا</span>، نقدم مجموعة شاملة من خدمات تكنولوجيا المعلومات المصممة لتلبية الاحتياجات الفريدة للمؤسسات الصغيرة والمتوسطة (SMBs) في الرياض. تشمل خبرتنا كل شيء من <span>تطوير المواقع الإلكترونية</span> إلى <span>الأمن السيبراني</span>، مما يضمن أن يظل عملك في الطليعة في العصر الرقمي.",
-    "Web Development":"تطوير المواقع الإلكترونية",
+    "Web Development":"تطوير مواقع",
     "web-desc":"نقوم بإنشاء مواقع إلكترونية متجاوبة وسهلة الاستخدام ومصممة خصيصاً لاحتياجات عملك. سواء كنت بحاجة إلى <span>منصة تجارة إلكترونية</span>، <span>موقع شركة أو مؤسسة</span>، أو <span>تطبيق ويب مخصص</span>، فإن فريقنا يقدم حلولاً عالية الجودة تحقق النتائج المرجوة.",
     "Mobile Development":"تطوير تطبيقات الجوال",
     "mobile-desc":"من <span>نظام iOS</span> إلى <span>نظام Android</span>، نطور تطبيقات جوال سهلة الاستخدام وغنية بالميزات ومصممة لتنمو مع عملك. تم تصميم تطبيقاتنا لتعزيز تفاعل العملاء وتبسيط العمليات.",
@@ -102,25 +102,59 @@
 
     "We Believe In Making A Positive Change In The World":"نؤمن بصنع تغيير إيجابي في العالم",
 
-    "Repla – Innovative and Adaptable Digital Solutions for Modern Business":"ريپلا – حلول رقمية مبتكرة وقابلة للتكيف للأعمال العصرية",
+    "Repla – Innovative and Adaptable Digital Solutions for Modern Business":"اكتشف أعمالنا المميزة في تطوير التطبيقات، تصميم المواقع، والتحول الرقمي لعمالئنا في الرياض والمملكة العربية السعودية",
+
+    "Innovative technology solutions specifically designed to meet your business needs in Saudi Arabia and enhance your digital growth.":"حلول تقنية مبتكرة مصممة خصيصاً لتلبية احتياجات أعمالكم في السعودية وتعزيز نموكم الرقمي",
 
     "Our drawing is inside the portfolio he is holding in his arms.":"رسمنا موجود داخل الحقيبة التي يحملها بين ذراعيه.",
 
-    "Our Projects":"لنا <span>مشاريع</span>",
-    "Our Previous Prjoects":"السابق لدينا<span>المشاريع</span>",
+    "Our Projects":" ما نقدمه<span> للمشاريع</span>",
     "Get In Touch":"تواصل معنا",
-    "Need More Information, Get In Contact":"بحاجة إلى مزيد من المعلومات، تواصل معنا",
-    "First Name":"الاسم الأول",
-    "Enter First Name":"أدخل الاسم الأول",
-    "Please enter your first name":"الرجاء إدخال اسمك الأول",
-    "Last Name":"اسم العائلة",
-    "Enter Last Name":"أدخل اسم العائلة",
-    "Please enter your last name":"الرجاء إدخال اسم العائلة",
-    "Subject":"الموضوع",
-    "Enter Subject":"أدخل الموضوع",
-    "Please enter subject":"الرجاء إدخال الموضوع",
-    "Message":"رسالة",
-    "Enter Your Message":"أدخل رسالتك",
+    "Full Name":"الاسم الكامل",
+    "Enter full name":"دخل الاسم الكامل",
+    "Company Name (if applicable)":"اسم الشركة (إن وجد)",
+    "Phone Number":"رقم الجوال",
+    "Enter phone number":"أدخل رقم الجوال",
+    "Email Address":"البريد الإلكتروني",
+    "Enter email address":"أدخل الإيميل",
+
+    "Project Details":"تفاصيل المشروع",
+    "What type of service are you looking for?":"ما نوع الخدمة التي تبحث عنها؟",
+    "Choose service":"اختر الخدمة",
+    "Mobile App Development":"تطوير تطبيقات الجوال",
+    "IT Consultation":"استشارات تقنية",
+    "Technical Support":"دعم فني",
+    "Other":"أخرى",
+    "Please briefly describe your project or your needs.":"يرجى وصف مشروعك أو احتياجاتك بإيجاز.",
+    "Enter briefly note":"أدخل ملاحظة مختصرة",
+    "What is your target audience or market?":"ما هو جمهورك المستهدف أو السوق الذي تستهدفه؟",
+    "Enter target audience or market":"أدخل الجمهور المستهدف أو السوق",
+    "Do you have a specific deadline for this project?":"هل لديك موعد نهائي محدد لهذا المشروع؟",
+    "Enter specific deadline":"أدخل الموعد النهائي المحدد",
+    "Do you have an existing website, app, or system?":"هل لديك موقع إلكتروني أو تطبيق أو نظام حالي؟",
+    "Yes":"نعم",
+    "No":"لا",
+    "Website Link":"رابط الموقع",
+    "Enter website link":"أدخل رابط الموقع",
+
+    "Technical and Design Preferences":"التفضيلات التقنية والتصميمية)",
+    "Do you have design preferences (colors, style, references)?":"هل لديك تفضيلات تصميم (ألوان، أسلوب، أمثلة مرجعية)؟",
+    "Enter design/style":"أدخل التصميم/النمط",
+    "Are there any specific features you want to include?":"هل هناك ميزات محددة ترغب في إضافتها؟",
+    "Enter specific features":"أدخل الميزات المحددة",
+    "Do you require ongoing maintenance and support?":"هل تحتاج إلى صيانة ودعم مستمر؟",
+    "Enter ongoing maintenance":"أدخل الصيانة المستمرة",
+    
+    "Budget and Contact":"الميزانية والتواصل",
+    "What is your estimated budget for this project?":"ما هو الميزانية التقديرية لهذا المشروع؟",
+    "Enter estimated budget":"أدخل الميزانية المتوقعة",
+    "Preferred method of communication":"طريقة التواصل المفضلة",
+    "Enter method communication":"أدخل طريقة التواصل",
+    "Phone Call":"مكالمة هاتفية",
+    "WhatsApp":"واتساب",
+    "Email":"بريد إلكتروني",
+    "In-person Meeting":"اجتماع حضوري",
+    "Any additional notes or comments?":"هل لديك أي ملاحظات أو تعليقات إضافية؟",
     "Submit":"إرسال",
 
     "COMPANY":"شركة",
@@ -142,6 +176,18 @@
     "Abdul Ahad Fatik":"عبدالعهد فاتيك",
     "Chief IT Engineer":"كبير مهندسي تقنية المعلومات",
 
-    "Web Developer":"مبرمج"
+    "Web Developer":"مبرمج",
+
+
+    "Top-Notch Services":"خدمات عالية الجودة",
+    "Our top-notch services are designed to exceed expectations and deliver exceptional results.":".نقدم خدمات تقنية عالية الجودة مصممة لتتجاوز التوقعات وتحقق نتائج استثنائية لعمالئنا",
+    "Commitment to excellence":"التزام بالتميز",
+    "We are dedicated to delivering exceptional services to clients around the globe.":".نلتزم بتقديم خدمات تقنية احترافية بمعايير عالمية لعمالئنا في المملكة العربية السعودية وحول العالم",
+    "Customers Satisfaction":"رضا العمالء أولويتنا",
+    "Above all, customer satisfaction is our top priority and we guarantee outstanding results. make this in to arabic and meet SEO requirements.":".نسعى دائ ًما لتحقيق رضا العمالء، ونضمن تقديم نتائج متميزة وخدمات تفوق التطلعات",
+
+
+    "Our Proven Projects in Web, App, and IT Solutions Across Saudi Arabia":"مشاريعنا المتميزة في تطوير التطبيقات والمواقع وحلول تقنية المعلومات في السعودية",
+    "Explore our portfolio of successful digital projects, including mobile app development, web platforms, and customized IT solutions delivered to businesses in Riyadh and throughout the Kingdom.":"استعرض أعمالنا الناجحة في تطوير تطبيقات الجوال، منصات الويب، وحلول تقنية المعلومات المصممة خصيصاً لعملائنا في الرياض وكافة أنحاء المملكة."
 
 }

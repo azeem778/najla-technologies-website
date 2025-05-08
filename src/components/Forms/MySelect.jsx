@@ -17,13 +17,14 @@ export const MySelect = ({withoutForm,name,label,mode,disabled,required,message,
       :
       <Form.Item
           name={name}
-          label={<Typography.Text  strong >{label}</Typography.Text>}
+          label={<Typography.Text  className='fs-14 fw-400 text-white'>{label}</Typography.Text>}
           rules={[
               {
               required,
               message,
               },
           ]}
+          className='fs-14 text-white'
           >
               <Select 
                 value={value || ''} 

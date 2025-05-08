@@ -101,23 +101,59 @@
 
     "Repla – Innovative and Adaptable Digital Solutions for Modern Business":"Repla – Innovative and Adaptable Digital Solutions for Modern Business",
 
-    "Our drawing is inside the portfolio he is holding in his arms.":"رسمنا موجود داخل الحقيبة التي يحملها بين ذراعيه.",
+    "Innovative technology solutions specifically designed to meet your business needs in Saudi Arabia and enhance your digital growth.":"Innovative technology solutions specifically designed to meet your business needs in Saudi Arabia and enhance your digital growth.",
+
+    "Our drawing is inside the portfolio he is holding in his arms.":"Our drawing is inside the portfolio he is holding in his arms.",
 
     "Our Projects":"Our <span>Projects</span>",
-    "Our Previous Prjoects":"Our Previous<span>Projects</span>",
+
     "Get In Touch":"Get In Touch",
     "Need More Information, Get In Contact":"Need More Information, Get In Contact",
-    "First Name":"First Name",
-    "Enter First Name":"Enter First Name",
-    "Please enter your first name":"Please enter your first name",
-    "Last Name":"Last Name",
-    "Enter Last Name":"Enter Last Name",
-    "Please enter your last name":"Please enter your last name",
-    "Subject":"Subject",
-    "Enter Subject":"Enter Subject",
-    "Please enter subject":"Please enter subject",
-    "Message":"Message",
-    "Enter Your Message":"Enter Your Message",
+    "Full Name":"Full Name",
+    "Enter full name":"Enter First Name",
+    "Company Name (if applicable)":"Company Name (if applicable)",
+    "Phone Number":"Phone Number",
+    "Enter phone number":"Enter phone number",
+    "Email Address":"Email Address",
+    "Enter email address":"Enter email address",
+
+    "Project Details":"Project Details",
+    "What type of service are you looking for?":"What type of service are you looking for?",
+    "Choose service":"Choose service",
+    "Mobile App Development":"Mobile App Development",
+    "IT Consultation":"IT Consultation",
+    "Technical Support":"Technical Support",
+    "Other":"Other",
+    "Please briefly describe your project or your needs.":"Please briefly describe your project or your needs.",
+    "Enter breifly note":"Enter breifly note",
+    "What is your target audience or market?":"What is your target audience or market?",
+    "Enter target audience or market":"Enter target audience or market",
+    "Do you have a specific deadline for this project?":"Do you have a specific deadline for this project?",
+    "Enter specific deadline":"Enter specific deadline",
+    "Do you have an existing website, app, or system?":"Do you have an existing website, app, or system?",
+    "Yes":"Yes",
+    "No":"No",
+    "Website Link":"Website Link",
+    "Enter website link":"Enter website link",
+
+    "Technical and Design Preferences":"Technical and Design Preferences",
+    "Do you have design preferences (colors, style, references)?":"Do you have design preferences (colors, style, references)?",
+    "Enter design/style":"Enter design/style",
+    "Are there any specific features you want to include?":"Are there any specific features you want to include?",
+    "Enter specific features":"Enter specific features",
+    "Do you require ongoing maintenance and support?":"Do you require ongoing maintenance and support?",
+    "Enter ongoing maintenance":"Enter ongoing maintenance",
+    
+    "Budget and Contact":"Budget and Contact",
+    "What is your estimated budget for this project?":"What is your estimated budget for this project?",
+    "Enter estimated budget":"Enter estimated budget",
+    "Preferred method of communication":"Preferred method of communication",
+    "Enter method communication":"Enter method communication",
+    "Phone Call":"Phone Call",
+    "WhatsApp":"WhatsApp",
+    "Email":"Email",
+    "In-person Meeting":"In-person Meeting",
+    "Any additional notes or comments?":"Any additional notes or comments?",
     "Submit":"Submit",
 
     "COMPANY":"COMPANY",
@@ -139,7 +175,17 @@
     "Abdul Ahad Fatik":"Abdul Ahad Fatik",
     "Chief IT Engineer":"Chief IT Engineer",
 
-    "Web Developer":"Web Developer"
+    "Web Developer":"Web Developer",
 
+
+    "Top-Notch Services":"Top-Notch Services",
+    "Our top-notch services are designed to exceed expectations and deliver exceptional results.":"Our top-notch services are designed to exceed expectations and deliver exceptional results.",
+    "Commitment to excellence":"Commitment to excellence",
+    "We are dedicated to delivering exceptional services to clients around the globe.":"We are dedicated to delivering exceptional services to clients around the globe.",
+    "Customers Satisfaction":"Customers Satisfaction",
+    "Above all, customer satisfaction is our top priority and we guarantee outstanding results. make this in to arabic and meet SEO requirements":"Above all, customer satisfaction is our top priority and we guarantee outstanding results. make this in to arabic and meet SEO requirements.",
+
+    "Our Proven Projects in Web, App, and IT Solutions Across Saudi Arabia":"Our Proven Projects in Web, App, and IT Solutions Across Saudi Arabia",
+    "Explore our portfolio of successful digital projects, including mobile app development, web platforms, and customized IT solutions delivered to businesses in Riyadh and throughout the Kingdom.":"Explore our portfolio of successful digital projects, including mobile app development, web platforms, and customized IT solutions delivered to businesses in Riyadh and throughout the Kingdom."
 
 }

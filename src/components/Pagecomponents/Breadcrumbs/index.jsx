@@ -30,7 +30,7 @@ const Breadcrumbs = ({ titleone, titletwo,breadcrumbitem,image }) => {
             </Flex>
           </Col>
           <Col span={24}>
-            <Flex vertical gap={10} className='w-100' align='center'>
+            <Flex vertical gap={10} className='w-100 text-center' align='center'>
               <Title level={2} className='text-brown m-0'>{titleone}</Title>
               <Title level={3} className='text-white m-0 fw-400'>{titletwo}</Title>
             </Flex>

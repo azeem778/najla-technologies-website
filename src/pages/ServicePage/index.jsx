@@ -8,7 +8,7 @@ const ServicePage = () => {
 
   return (
     <div className='m-top-80'>
-      <Breadcrumbs titleone={t('Services')} titletwo='Lorem ipsum is a dummy' breadcrumbitem={{ item: t('Services'), to: '/' }} image='ourservicesnew.jfif' />
+      <Breadcrumbs titleone={t('Services')} titletwo={t('Innovative technology solutions specifically designed to meet your business needs in Saudi Arabia and enhance your digital growth.')} breadcrumbitem={{ item: t('Services'), to: '/' }} image='ourservicesnew.jfif' />
       <div className='container'>
         <ServiceCards/>
       </div>

@@ -1,11 +1,12 @@
 import React from 'react'
-import { Card, Col, Flex, Row, Typography, Button, Image } from 'antd'
+import { Card, Col, Flex, Row, Typography, Image } from 'antd'
 import { Trans, useTranslation } from 'react-i18next'
-import { servicePageData } from '../../../data'
+import { ServiceData, servicePageData } from '../../../data'
 const { Title, Text } = Typography
 const ServiceCards = () => {
 
   const {t} = useTranslation()
+  const ServicesData = ServiceData(t)
   return (
     <div className='padding-main'>
       <Row gutter={[24, 64]}>
@@ -20,7 +21,7 @@ const ServiceCards = () => {
           </Flex>
         </Col>
         {
-          servicePageData?.map((item,index) =>
+          ServicesData?.map((item,index) =>
             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 12 }} lg={{ span: 8 }} key={index}>
               <Card className='shadow-c h-100 border-0 servicecard'>
                 <Flex vertical gap={20} align='center'>

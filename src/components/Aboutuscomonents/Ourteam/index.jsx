@@ -12,26 +12,26 @@ const Ourteam = () => {
         const teamData= [
             {
                 id:'1',
-                img:'miss-najla.jpg',
+                img:'najla.jpg',
                 name:'Najla alshail',
                 designation:'Founder & Managing Partner'
             },
             {
                 id:'2',
-                img:'michael.png',
+                img:'usman.png',
                 name:'Mohammed Usman',
                 designation:'Co-Founder & IT Projects Director'
             },
             
             {
                 id:'3',
-                img:'ayesha.png',
+                img:'alia.jpg',
                 name:'Alyaa Alshail',
                 designation:'Operations and Client Relations Manager'
             },
             {
                 id:'4',
-                img:'michael.png',
+                img:'ftk.jpg',
                 name:'Abdul Ahad Fatik',
                 designation:'Chief IT Engineer'
             },

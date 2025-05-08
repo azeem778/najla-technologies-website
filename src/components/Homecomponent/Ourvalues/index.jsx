@@ -12,19 +12,19 @@ const Ourvalues = () => {
             id: '1',
             img: 'services.png',
             title: 'Top-Notch Services',
-            desc: 'Our top-notch services are designed to exceed expectations and deliver exceptional results. '
+            desc: 'Our top-notch services are designed to exceed expectations and deliver exceptional results.'
         },
         {
             id: '2',
             img: 'excellence.png',
             title: 'Commitment to excellence',
-            desc: "We are dedicated to delivering exceptional services to clients around the globe. "
+            desc: "We are dedicated to delivering exceptional services to clients around the globe."
         },
         {
             id: '3',
             img: 'customer-retention.png',
             title: 'Customers Satisfaction',
-            desc: "Above all, customer satisfaction is our top priority and we guarantee outstanding results."
+            desc: "Above all, customer satisfaction is our top priority and we guarantee outstanding results. make this in to arabic and meet SEO requirements."
         }
     ]
     return (
@@ -84,10 +84,10 @@ const Ourvalues = () => {
                                                 </Flex>
                                                 <Flex vertical gap={20} className='content'>
                                                     <Title level={4} className='m-0  text-center'>
-                                                        {cdata?.title}
+                                                        {t(cdata?.title)}
                                                     </Title>
                                                     <Text className='text-center fs-15'>
-                                                        {cdata?.desc}
+                                                        {t(cdata?.desc)}
                                                     </Text>
                                                 </Flex>
                                             </Col>
