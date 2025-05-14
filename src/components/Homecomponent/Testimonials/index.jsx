@@ -1,10 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Row, Col, Typography, Flex, Card, Rate, Space, Image, message } from 'antd';
 import Slider from 'react-slick';
+import { Trans, useTranslation } from 'react-i18next';
 
 const { Title, Text, Paragraph } = Typography;
 function Testimonials() {
     const [expanded, setExpanded] = useState(false)
+    const {t} = useTranslation()
 
     const testimonialData = [
         {
@@ -75,14 +77,14 @@ function Testimonials() {
                 <Flex vertical align='center' gap={20}>
                     <Flex vertical gap={5} align='center'>
                         <Title level={1} className='text-center m-0'>
-                            Read What Our <span className='text-brown'>Clients Saying</span>
+                            <Trans i18nKey={'read_what'} components={{span: <span className='text-brown'></span> }} />
                         </Title>
                         <div className="bar-main">
                             <div className="bar bar-big"></div>
                         </div>
                     </Flex>
                     <Title level={3}>
-                        Don't take our word for it. Listen to our partners.
+                        {t("Don't take our word for it. Listen to our partners")}
                     </Title>
                 </Flex>
             </Col>

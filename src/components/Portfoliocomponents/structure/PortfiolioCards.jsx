@@ -8,6 +8,7 @@ const { Title, Text } = Typography
 const PortfiolioCards = () => {
 
   const { t } = useTranslation()
+  const data = PortfolioData(t)
   return (
     <div className='padding-main'>
       <Row gutter={[24, 64]}>
@@ -22,7 +23,7 @@ const PortfiolioCards = () => {
           </Flex>
         </Col>
         {
-          PortfolioData?.map((data, index) =>
+          data?.map((data, index) =>
             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 12 }} lg={{ span: 8 }} key={index}>
               <Card className='bg-transparent border-0 card-p h-100'>
                 <img src={"/assets/images/portfolio/" + data?.smimg} width={'100%'} className='round-corner-one h-100' alt="" />

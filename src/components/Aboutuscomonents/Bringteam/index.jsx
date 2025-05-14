@@ -31,20 +31,15 @@ const Bringteam = () => {
                             </Text>
                             <Divider className='bg-brand'/>
                             <div>
-                            <Row gutter={[16,16]} align={'middle'}>
-                                <Col xs={{span:5}} sm={{span:5}} md={{span:5}} lg={{span:5}}>
-                                <Image src='assets/images/ceo.png' preview={false} width={80} style={{ borderRadius: "50%" }}/>
-                                </Col>
-                                <Col xs={{span:19}} sm={{span:19}} md={{span:19}} lg={{span:19}}>
-                                    <Flex vertical gap={10}>
-                                        <Text className='fs-15'>Squad development is the process creang web minds lod</Text>
-                                        <Flex gap={30} align='center'>
-                                            <Title level={4} className='m-0'>Najla Shoaib</Title>
-                                            <Text level={5} className=''>CEO & Co-Owner at Najla</Text>
-                                        </Flex>
+                                <Flex gap={15} align='center'>
+                                    <Image src='assets/images/najla.jpg' preview={false} width={70} style={{ borderRadius: "50%" }}/>
+                                    <Flex vertical gap={0}>
+                                        <Text className='fs-14'>
+                                            {t('Founder & Managing Partner')}
+                                        </Text>
+                                        <Title level={4} className='m-0'>{t('Najla alshail')}</Title>
                                     </Flex>
-                                </Col>
-                            </Row>
+                                </Flex>
                             </div>
                         </Flex>
                         </motion.div>
@@ -59,7 +54,7 @@ const Bringteam = () => {
                         transition={{ delay: 0.8, duration: 1, ease: "easeInOut" }}
                         viewport={{once: false}}
                         >
-                            <Image src='assets/images/bringteam.webp' alt='Our Story' className='rounded-20' preview={false} />
+                            <Image src='assets/images/portfolio/port-1.jpg' alt='Our Story' className='rounded-20' preview={false} />
                         </motion.div>
                     </Col>
                 </Row>
